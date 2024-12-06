@@ -1,0 +1,26 @@
+@import '../../../colors.scss';
+@import '../../../_animations.scss';
+
+.background-box {
+    background-color: black;
+    align-content: center;
+    height: 100vh;
+}
+
+p {
+    text-align: center;
+}
+
+.code {
+    color: $warning;
+    font-size: 6em;
+    text-shadow: 4px 3px 32px $warning;
+}
+
+.message {
+    -webkit-animation: text-flicker-in-glow 4s linear both;
+    animation: text-flicker-in-glow 4s linear both;
+    font-size: 4em;
+    color: white;
+}
+

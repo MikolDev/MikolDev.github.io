@@ -1,0 +1,16 @@
+@import '../../../_animations.scss';
+
+.slide {
+    height: 100vh;
+}
+
+.slide.intro {
+    .name-label {
+        font-size: 4em;
+    }
+
+    .name {
+        font-size: 6em;
+        animation: fade-in-left 2s ease 0s 1 normal forwards;
+    }
+}
