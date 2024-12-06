@@ -5,6 +5,7 @@
 }
 
 .slide.intro {
+
     .name-label {
         font-size: 4em;
     }
@@ -13,4 +14,8 @@
         font-size: 6em;
         animation: fade-in-left 2s ease 0s 1 normal forwards;
     }
+}
+
+.blinking {
+    animation: blinking 3s ease 0s infinite normal forwards;
 }
