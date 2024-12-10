@@ -1,0 +1,12 @@
+[
+    {
+        "title": "ZSMEiE Toruń",
+        "description": "ZSMEiE is a vocational secondary school in Toruń. I graduated from this school in 2024 with honors. My specialization was software developer technician. During my education, I learned the basics of programming, databases, and web development.",
+        "image": "assets/img/zsmeie.jpg"
+    },
+    {
+        "title": "Łódź University of Technology",
+        "description": "I started my studies at International Faculty of Engineering in 2024. My major is Information Technology. I want to enhance my programming skills and learn new technologies.",
+        "image": "assets/img/tul.jpg"
+    }
+]
