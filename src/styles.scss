@@ -57,3 +57,17 @@ body {
         animation: bg-pan-right 8s linear infinite;
     }
 }
+
+.fade-in {
+    &.active {
+        -webkit-animation: fade-in .5s ease 0s 1 normal forwards;
+        animation: fade-in .5s ease 0s 1 normal forwards;
+    }
+}
+
+.fade-out {
+    &.active {
+        -webkit-animation: fade-out .5s ease 0s 1 normal forwards;
+        animation: fade-out .5s ease 0s 1 normal forwards;
+    }
+}
