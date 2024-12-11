@@ -35,6 +35,20 @@ body {
     font-size: 2em;
 }
 
+@media (max-width: 768px) {
+    .big-text {
+        font-size: 4em;
+    }
+
+    .medium-text {
+        font-size: 3em;
+    }
+
+    .small-text {
+        font-size: 1.5em;
+    }
+}
+
 // CLASSES FOR ANIMATIONS
 
 .blinking {
